@@ -1,5 +1,6 @@
 import NavBar from "../components/Navbar/NavBar";
 import InfoCard from "../components/InfoCard/InfoCard";
+import Footer from "../components/Footer/Footer";
 
 export default async function Page() {
     return (
@@ -43,34 +44,8 @@ export default async function Page() {
         </section>
   
         {/* Footer */}
-        <footer className="mt-12 p-6 bg-gray-900 text-white text-center">
-          <div className="max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-4">
-            <div>
-              <h3 className="font-semibold">Product</h3>
-              <ul className="mt-2 text-sm space-y-1">
-                <li><a href="#" className="hover:underline">Features</a></li>
-                <li><a href="#" className="hover:underline">Pricing</a></li>
-                <li><a href="#" className="hover:underline">API</a></li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="font-semibold">Company</h3>
-              <ul className="mt-2 text-sm space-y-1">
-                <li><a href="#" className="hover:underline">About</a></li>
-                <li><a href="#" className="hover:underline">Blog</a></li>
-                <li><a href="#" className="hover:underline">Careers</a></li>
-              </ul>
-            </div>
-            <div>
-              <h3 className="font-semibold">Legal</h3>
-              <ul className="mt-2 text-sm space-y-1">
-                <li><a href="#" className="hover:underline">Privacy</a></li>
-                <li><a href="#" className="hover:underline">Terms</a></li>
-              </ul>
-            </div>
-          </div>
-          <p className="mt-6 text-sm">© 2025 CVLens. All rights reserved.</p>
-        </footer>
+        <Footer/>
+
       </div>
     );
   }
