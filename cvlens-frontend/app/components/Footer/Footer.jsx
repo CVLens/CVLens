@@ -9,25 +9,28 @@ const Footer = () => {
                 <div>
                     <h3 className="font-semibold text-lg">Overview</h3>
                     <ul className="mt-2 text-sm space-y-1">
-                        <li><a href="#" className="hover:underline">Home</a></li>
+                        <li><a href="/" className="hover:underline">Home</a></li>
                     </ul>
                 </div>
                 <div>
                     <h3 className="font-semibold text-lg">Product</h3>
                     <ul className="mt-2 text-sm space-y-1">
-                        <li><a href="#" className="hover:underline">API</a></li>
-                    </ul>
-                </div>
-                <div>
-                    <h3 className="font-semibold text-lg">Try Now</h3>
-                    <ul className="mt-2 text-sm space-y-1">
-                        <li><a href="#" className="hover:underline">Upload</a></li>
+                        <li><a href="/api-doc" className="hover:underline">API</a></li>
                     </ul>
                 </div>
                 <div>
                     <h3 className="font-semibold text-lg">Creators</h3>
                     <ul className="mt-2 text-sm space-y-1">
-                        <li><a href="#" className="hover:underline">About Us</a></li>
+                        <li><a href="/about-us" className="hover:underline">About Us</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 className="font-semibold text-lg">More Info</h3>
+                    <ul className=" flex justify-center mt-2 text-sm space-y-1">
+                        <li><a href="https://github.com/CVLens/CVLens" className="hover:underline" target="_blank" rel="noopener noreferrer">
+                        Github
+                        {/* <img src="/svg/github.svg" alt="GitHub" className="w-6 h-6" /> */}
+                        </a></li>
                     </ul>
                 </div>
             </div>
